@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-2</title>
+</head>
+<body>
+    <form action="bakend.php">
+
+        <h1>My Feedback Form</h1> 
+        
+        <ul> 
+            <div> <li> <label for="Name">Name : <input type="Name" name="Name" id="Name"> </label> </li> </div>  
+
+            <div> <li>  <label for="Email">Email : <input type="Email" name="Email" id="Email"> </label> </li> </div>
+    
+            <div> <li> <label for="Password">Password : <input type="Pwd" name="Pwd" id="Pwd"> </label> </li>  </div> <br>
+    
+            <div> <li>please check all the emotions that apply to you:</li> <ul> <li type="disc"> Angry<input type="checkbox" name="angry" id="angry"> </li> <li type="disc">Sad<input type="checkbox" name="sad" id="sad"> </li> <li type="disc">Happy<input type="checkbox" name="happy" id="happy"> </li> <li type="disc">Ambivalent<input type="checkbox" name="amb" id="amb"> </li> </ul> </div>
+    
+            <div> <li> How satisfied were you with our service? </li> <ul> <li type="disc"> Satisfied<input type="radio" name="satisfied" id="satisfied"> </li> <li type="disc"> Very Satisfied<input type="radio" name="verysat" id="verysat"> </li> <li type="disc"> Didn't care<input type="radio" name="notcare" id="notcare"> </li> <li type="disc"> Dissatisfied<input type="radio" name="Dissatisfied" id="Dissatisfied"> </li>  <li type="disc"> Very Dissatisfied<input type="radio" name="verydis" id="verydis"> </li> </ul> </div> <br> 
+    
+            <div> <li> Further Comments :<textarea name="comments" id="comments" cols="30" rows="4"></textarea> </li>  </div> <br>
+    
+            <div> <li> Bio Photo <input type="photo" name="bp" id="bp"> <select name="pic" id="pic"> pic <option value="pic"> </option> photo <option value="photo"></option></select> </li> </div> 
+
+           <div> <li> Location visited :<input type="location" name="location" id="location" placeholder="select location"> </li> </div> <br>
+
+           <li> <input type="Submit" name="Submit" id="Submit"> </li>
+    
+        </ul>
+    </form>
+</body>
+</html>
