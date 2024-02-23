@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        .class1{
+        
+            text-align:initial;  
+        }
+        .class2{
+              
+            text-align: end;
+        }
+        .class3{
+            display: flex;
+            width: 34px;
+            background-color: rgb(215, 210, 210);
+            
+        }
+        .class5{
+            background-color: rgb(197, 224, 234);
+        }
+        .class6{
+            background-color: rgb(245, 245, 90);
+        }
+         
+    </style>
+</head>
+<body>
+    
+    <table border="1" cellspacing="0">
+        <tr>
+            <th class="class3">ACC</th>
+            <td></td>
+            <th class="class5">column <br> header 1a</th>
+            <th class="class5">column <br> header 1b</th>
+            <th class="class5">column <br> header 1c</th>
+            <th class="class5">column <br> header 1d</th>
+        </tr>
+         
+        <tr>
+            <td></td>
+            <td></td>
+            <th class="class5">column <br> header 2a</th>
+            <th class="class5">column <br> header 2b</th>
+            <th class="class5">column <br> header 2c</th>
+            <th class="class5">column <br> header 2d</th>
+
+        </tr>
+
+        <tr>
+            <th rowspan="4" class="class1 class6">row <br> header 1a </th>
+            <th class="class1 class6">row header  <br> 2a</th>
+            <td>data col 1 <br>row1</td>
+            <td>data col 2 <br>row1</td>
+            <td>data col 3 <br>row1</td>
+            <td>data col 4 <br>row1</td>
+        </tr>
+        <tr>
+            <th class="class1 class6">row header <br> 2b</th>
+            <td>data col 1 <br>row2</td>
+            <td>data col 2 <br>row2</td>
+            <td>data col 3 <br>row3</td>
+            <td>data col 4 <br>row4</td>
+
+        </tr>
+
+        <tr>
+            <th class="class1 class6" >row header <br> 2c</th>
+            <td>data col 1 <br>row3</td>
+            <td>data col 2 <br>row3</td>
+            <td>data col 3 <br>row3</td>
+            <td>data col 4 <br>row3</td>
+
+        </tr>
+        <tr>
+            <th colspan="3" class="class2 class6">summary sub-total</th>
+            <td>total 1a</td>
+            <td>total 2a</td>
+        </tr>
+
+        <tr>
+            <th rowspan="3" class="class1 class6">row <br> header 1b</th>
+            <th class="class1 class6">row header <br>2d</th>
+            <td>data col 1 <br>row1</td>
+            <td>data col 2 <br>row1</td>
+            <td>data col 3 <br>row1</td>
+            <td>data col 4 <br>row1</td>
+
+        </tr>
+
+        <tr>
+            <th class="class1 class6">row <br> header 1b</th>
+            <td>data col 1 <br>row2</td>
+            <td>data col 2 <br>row2</td>
+            <td>data col 3 <br>row2</td>
+            <td>data col 4 <br>row2</td>
+
+        </tr>
+
+        <tr>
+            <th colspan="3" class="class2 class6">summary sub-total</th>
+            <td>total 1b</td>
+            <td>total 2b</td>
+        </tr>
+
+        <tr>
+            <th colspan="4" class="class2 class6"> grand total </th>
+            <td>grand-total</td>
+            <td>grand-total</td>
+        </tr>
+    </table>
+</body>
+</html>
